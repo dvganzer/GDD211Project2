@@ -4,8 +4,6 @@ using UnityEngine;
 
 public class Movement : MonoBehaviour
 {
-    public float Walkspeed = 5f;
-    public float Runspeed = 8f;
     public static float speed = 5f;
     public Rigidbody2D rb;
     Vector2 move;
@@ -31,10 +29,12 @@ public class Movement : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.Space))
         {
             animator.SetBool("Shoot", true);
+            speed = 0f;
         }
         else if (Input.GetKeyDown(KeyCode.D)|| Input.GetKeyDown(KeyCode.A))
         {
             animator.SetBool("Shoot", false);
+            speed = 5f;
         }
     }
     private void FixedUpdate()
