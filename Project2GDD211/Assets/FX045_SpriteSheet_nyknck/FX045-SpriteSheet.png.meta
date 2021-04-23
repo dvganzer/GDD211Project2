@@ -1,25 +1,31 @@
 fileFormatVersion: 2
-guid: 15dea894860e29640b4a6cb21f2354ca
+guid: be520a92202d8834b9a3c85054249414
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 7175953073922461987
-    second: CowBoyDrawWeapon_0
+      213: 8289837423084455135
+    second: FX045-SpriteSheet_0
   - first:
-      213: -6161392886917419795
-    second: CowBoyDrawWeapon_1
+      213: 8065076832366394309
+    second: FX045-SpriteSheet_1
   - first:
-      213: -872158705801571907
-    second: CowBoyDrawWeapon_2
+      213: -6793049933340445897
+    second: FX045-SpriteSheet_2
   - first:
-      213: 7574131908556212511
-    second: CowBoyDrawWeapon_3
+      213: -3922211348479623332
+    second: FX045-SpriteSheet_3
   - first:
-      213: 710643760357924249
-    second: CowBoyDrawWeapon_4
+      213: 8201114557547161710
+    second: FX045-SpriteSheet_4
   - first:
-      213: -4645274434835638484
-    second: CowBoyDrawWeapon_5
+      213: 5645031677228154582
+    second: FX045-SpriteSheet_5
+  - first:
+      213: 3381977188891721167
+    second: FX045-SpriteSheet_6
+  - first:
+      213: 1003603600178927330
+    second: FX045-SpriteSheet_7
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -63,7 +69,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 16
+  spritePixelsToUnits: 100
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -129,13 +135,160 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: CowBoyDrawWeapon_0
+      name: FX045-SpriteSheet_0
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 14
+        width: 26
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd440b0073b6b0370800000000000000
+      internalID: 8289837423084455135
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FX045-SpriteSheet_1
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 23
+        width: 8
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5cb7e6ff5a8ecef60800000000000000
+      internalID: 8065076832366394309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FX045-SpriteSheet_2
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 22
+        width: 8
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73370c5a31d3ab1a0800000000000000
+      internalID: -6793049933340445897
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FX045-SpriteSheet_3
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 23
+        width: 9
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5fbddf2f818199c0800000000000000
+      internalID: -3922211348479623332
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FX045-SpriteSheet_4
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 24
+        width: 29
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6822ec1d3630d170800000000000000
+      internalID: 8201114557547161710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FX045-SpriteSheet_5
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 5
+        width: 16
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6def20bd66e275e40800000000000000
+      internalID: 5645031677228154582
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FX045-SpriteSheet_6
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 10
+        width: 18
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fcd7d56b5523fee20800000000000000
+      internalID: 3381977188891721167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FX045-SpriteSheet_7
       rect:
         serializedVersion: 2
         x: 15
         y: 0
-        width: 19
-        height: 41
+        width: 37
+        height: 6
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -143,113 +296,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 32155080d4b169360800000000000000
-      internalID: 7175953073922461987
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: CowBoyDrawWeapon_1
-      rect:
-        serializedVersion: 2
-        x: 63
-        y: 0
-        width: 19
-        height: 41
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: dec2ba550d55e7aa0800000000000000
-      internalID: -6161392886917419795
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: CowBoyDrawWeapon_2
-      rect:
-        serializedVersion: 2
-        x: 111
-        y: 0
-        width: 19
-        height: 42
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: db1dee8274875e3f0800000000000000
-      internalID: -872158705801571907
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: CowBoyDrawWeapon_3
-      rect:
-        serializedVersion: 2
-        x: 159
-        y: 0
-        width: 19
-        height: 41
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: f19c17367d8bc1960800000000000000
-      internalID: 7574131908556212511
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: CowBoyDrawWeapon_4
-      rect:
-        serializedVersion: 2
-        x: 207
-        y: 0
-        width: 19
-        height: 39
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 99d5bf12cb6bcd900800000000000000
-      internalID: 710643760357924249
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: CowBoyDrawWeapon_5
-      rect:
-        serializedVersion: 2
-        x: 255
-        y: 0
-        width: 21
-        height: 40
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: c271b63638ba88fb0800000000000000
-      internalID: -4645274434835638484
+      spriteID: 2e6d7f338248ded00800000000000000
+      internalID: 1003603600178927330
       vertices: []
       indices: 
       edges: []
